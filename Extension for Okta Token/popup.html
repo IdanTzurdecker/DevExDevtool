@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Token Extractor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h2> DevEx Devtool</h2>
+  <button id="extractButton">Extract Okta Token</button>
+  <hr class="divider">
+  <select id="trueList">
+    <option>Show Enabled LD Flags</option>
+  </select>
+  <select id="falseList">
+    <option>Show Disabled LD Flags</option>
+  </select>
+  <h5>Values from current tab session's user, org, & env.</h5>
+  <div id="message" class="message"></div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
